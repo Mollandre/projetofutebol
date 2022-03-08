@@ -18,6 +18,7 @@ function Confirmar (){
     }
     else{
         var item = document.createElement("option")
+        
         item.text = `${displaytext1} ${placar1.value} X ${placar2.value} ${displaytext2}`
         lista.appendChild(item)
     }
