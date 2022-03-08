@@ -10,11 +10,12 @@ section{
     background-image: url(gramado.jpg);
     background-repeat: no-repeat;
   margin: auto;
-  margin-top: 50PX;
+  margin-top: 10PX;
    background-size: cover;
    height: 450px;
    border-radius: 10px;
-   padding: 30px;
+   padding: 10px;
+   margin-bottom: -20px;
    
   
 }
@@ -35,7 +36,7 @@ div#fut1{
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.0em;
+    font-size: 2.3em;
     color: white;
     text-shadow: 1PX 1PX 1PX black;
     
@@ -43,19 +44,21 @@ h1{
 select.pla{
     background-color: #0D2116 ;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.5em;
     padding: 0px 3PX 0px 3px;
     border-radius: 5px;
 }
 div select#time3{
-   width: 320px;
+   width: 280px;
    margin-top: 30px;
+   margin-left: 100px ;
    
 }
 P span{
-    padding-left: 20px;
+    
    color: white;
-   padding-right: 15px;
+   
+   font-size: 0.6em;
 }
 p span.time{
     
@@ -63,17 +66,17 @@ p span.time{
    
 }
 input.tim{
-    width: 40px;
-    height: 35px;
-    font-size: 1.1em;
-    padding-left: 5px;
+    width: 28px;
+    height: 20px;
+    font-size: 0.7em;
+    
     
 }
 input#tim1{
-    margin-left: 30px;
+    
 }
 input#tim2{
-    margin-right: 28px;
+   
 }
 input.button{
     padding: 8px;
@@ -82,7 +85,10 @@ input.button{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-    margin-left: 100px;
+    margin-left: 180px;
+    margin-top: 20px;
+    
+
     
     
 }
