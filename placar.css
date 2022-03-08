@@ -44,7 +44,7 @@ h1{
 select.pla{
     background-color: #0D2116 ;
     color: white;
-    font-size: 0.5em;
+    font-size: 0.4em;
     padding: 0px 1PX 0px 1px;
     border-radius: 5px;
 }
@@ -55,12 +55,15 @@ div select#time3{
    margin-top: 30px;
    margin: auto ;
    
+    
+
 }
+
 P span{
     
    color: white;
    
-   font-size: 0.6em;
+   font-size: 0.5em;
 }
 p span.time{
     
@@ -68,9 +71,10 @@ p span.time{
    
 }
 input.tim{
-    width: 28px;
-    height: 20px;
+    width: 8px;
+    height: 9px;
     font-size: 0.6em;
+    
     
     
 }
@@ -88,4 +92,16 @@ input.button{
 
     
     
+}
+div#tt p{
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
