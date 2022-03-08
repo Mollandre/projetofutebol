@@ -9,7 +9,7 @@ function Confirmar (){
     var placar1 = document.getElementById("tim1")
     var placar2 = document.getElementById("tim2")
     var lista = document.getElementById("time3")
-    placar1.value.innerHTML = "0"
+    
     if(displaytext1 == displaytext2){
         alert('!!ERRO TIMES IGUAIS TENTE NOVAMENTE!!')
     }
@@ -21,4 +21,26 @@ function Confirmar (){
         item.text = `${displaytext1} ${placar1.value} X ${placar2.value} ${displaytext2}`
         lista.appendChild(item)
     }
+
 }
+function Finalizar(){
+
+    var cor1 = document.getElementById("time1")
+    var cor2 = document.getElementById("time2")
+    var displaytext1 = cor1.options[cor1.selectedIndex].text
+    var displaytext2 = cor2.options[cor2.selectedIndex].text
+    var placar1 = document.getElementById("tim1")
+    var placar2 = document.getElementById("tim2")
+    var lista = document.getElementById("time3")
+    var res = document.getElementById("res")
+    
+    
+        if(displaytext1 == displaytext2){
+            alert('!!ERRO TIMES IGUAIS TENTE NOVAMENTE!!')
+        }
+        
+            res.innerHTML = `${azul.text}`
+        
+    
+    }
+

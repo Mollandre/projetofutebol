@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="tim" id="time">
+
+
+    </select>
+<div id="res">resultado</div>
+
+    <script>
+        var cor = document.getElementById("time")
+        var amarelo = document.createElement("option")
+        amarelo.value = "amarelo"
+        amarelo.text = "amarelo"
+        cor.add(amarelo, cor.options[0])
+        var azul = document.createElement("option")
+        azul.value = "azul"
+        azul.text = "verde"
+        cor.add(azul, cor.options[1])
+        var res = document.getElementById("res")
+        res.innerHTML = `${azul.text}`
+    </script>
+</body>
+</html>
